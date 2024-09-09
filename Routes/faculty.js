@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const faculty = require("../controller/facultyMember");
+const faculty = require("../Controller/facultyMember");
 
 router.post("/faculty", faculty.postFaculty);
 router.get("/faculty", faculty.getFaculty);

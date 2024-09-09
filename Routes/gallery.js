@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const gallery = require("../controller/gallery");
+const gallery = require("../Controller/gallery");
 
 router.post("/gallery", gallery.postGallery);
 router.get("/gallery", gallery.getGallery);

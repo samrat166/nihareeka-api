@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const notice = require("../controller/notice");
+const notice = require("../Controller/notice");
 const codes = require("../Model/codes");
 
 router.post("/notice", notice.postNotice);
