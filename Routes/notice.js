@@ -26,7 +26,7 @@ router.get("/code/:data", async (req, res) => {
   if (!resposne) {
     res.send("Better Luck Next TIme");
   } else {
-    res.send(`Congratulations ${resposne.price} Point Has Been Added`);
+    res.send(`Congratulations ${resposne.price} Points Has Been Added`);
   }
 });
 
