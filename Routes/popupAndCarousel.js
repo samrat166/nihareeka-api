@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const popup = require("../controller/popup");
+const popup = require("../Controller/popup");
 
 router.post("/popup-carousel", popup.postPopup);
 router.get("/popup-carousel", popup.getPopup);
