@@ -20,6 +20,7 @@ const noticeRoute = require("./Routes/notice.js");
 const resultRoute = require("./Routes/result");
 const formRoute = require("./Routes/form");
 const facultyMemberRoute = require("./Routes/faculty.js");
+const popupRoute = require("./Routes/popupAndCarousel.js");
 
 //Initializing Routes
 app.use("/api/v1", contactRoute);
@@ -29,6 +30,7 @@ app.use("/api/v1", newsletterRoute);
 app.use("/api/v1", noticeRoute);
 app.use("/api/v1", resultRoute);
 app.use("/api/v1", formRoute);
+app.use("/api/v1", popupRoute);
 app.use("/api/v1", facultyMemberRoute);
 
 app.listen(PORT, () => {

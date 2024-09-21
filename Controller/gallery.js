@@ -10,6 +10,7 @@ module.exports.postGallery = async (req, res, next) => {
     console.log(error);
   }
 };
+
 module.exports.getGallery = async (req, res, next) => {
   try {
     const getGallery = await Gallery.find();

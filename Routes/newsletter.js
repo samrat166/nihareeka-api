@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const newsletter = require("../Controller/newsletter");
+const newsletter = require("../controller/newsletter");
 const NotificationModel = require("../Model/Notification");
 
 router.post("/newsletter", newsletter.postNewsletter);
